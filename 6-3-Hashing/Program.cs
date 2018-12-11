@@ -8,8 +8,13 @@ namespace _6_3_Hashing
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
+
+            Console.WriteLine(Convert.ToInt32('a') - 97);
+            Hash ejemplos = new Hash();
+            ejemplos.Menu();
         }
     }
 }
